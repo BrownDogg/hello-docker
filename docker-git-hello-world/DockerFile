@@ -10,4 +10,4 @@ RUN apt-get install -y mysql-client
 RUN apt-get update && apt-get install -y default-jdk maven
 	ADD . /usr/local/docker-git-hello-world
 RUN cd /usr/local/docker-git-hello-world && mvn assembly:assembly
-CMD ["java", "-cp", "/usr/local/docker-git-hello-world/target/docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencies.jar", "pe.com.udemy.HelloWorldPing"]
+CMD ["java", "-cp", "/usr/local/docker-git-hello-world/target/docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencies.jar", "pe.com.udemy.HelloWorldPin	g"]
